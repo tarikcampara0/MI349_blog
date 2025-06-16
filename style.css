@@ -10,3 +10,20 @@ body {
     border-top: 10px solid black;
     background: white;
 }
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+p {
+    line-height: 1.4em;
+}
+
+#blog {
+    border-top: 1px dotted white;
+}
+
+.blog-post {
+    border-bottom: 1px dotted white;
+}
