@@ -27,3 +27,9 @@ p {
 .blog-post {
     border-bottom: 1px dotted white;
 }
+
+.gamers {
+    background: gray;
+    position: sticky;
+    top: 0;
+}
