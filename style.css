@@ -31,7 +31,6 @@ nav a {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    transition: color 0.3s ease;
 }
 
 nav a:hover {
@@ -53,7 +52,6 @@ article.blog-post {
     padding: 20px;
     margin-bottom: 40px;
     border-radius: 10px;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 .float-image {
@@ -61,7 +59,6 @@ article.blog-post {
     width: 200px;
     margin: 0 15px 15px 0;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
 }
 
 .float-image img {
