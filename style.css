@@ -51,10 +51,3 @@ article {
     width: 200px;
     margin-right: 8px; 
 }
-
-.float-image figcaption {
-    font-size: 0.9em;
-    color: #555;
-    text-align: center;
-    margin-top: 5px;
-}
