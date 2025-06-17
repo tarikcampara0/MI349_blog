@@ -1,64 +1,69 @@
-html{
-    background: white;
-}
-
+/* General Layout */
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 40px;
     padding: 40px;
     color: black;
-    border-top: 20px solid black;
     background: white;
+    border-top: 20px solid black;
 }
 
-h1 {
-    font-size: 3em;
-    margin: 0;
-}
-
-p {
-    line-height: 1.4em;
-}
-
-#blog {
-    border-top: 1px dotted white;
-}
-
-.blog-post {
-    border-bottom: 1px dotted white;
-}
-
-.gamers {
+header.gamers {
     background: gray;
     position: sticky;
     top: 0;
+    padding: 20px;
 }
 
+/* Navigation */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px;
+}
+
+/* Sections & Articles */
 section {
     background-color: cyan;
-    display: flex;
     padding: 20px;
-    margin: 20px;
+    margin: 20px auto;
+    display: block;
 }
 
-article {
+article.blog-post {
     background-color: blue;
+    color: white;
     padding: 20px;
-    margin: 20px;
+    margin-bottom: 40px;
 }
 
+/* Floated Images */
 .float-image {
     float: left;
-    height: 200px;
     width: 200px;
-    margin-right: 8px; 
+    margin: 0 15px 15px 0;
 }
 
-aside {
+.float-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.float-image figcaption {
+    font-size: 0.9em;
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+}
+
+/* Newsletter */
+#newsletter {
     background-color: aquamarine;
-
-}
-
-header {
-    background: greenyellow;
+    padding: 20px;
+    margin-top: 40px;
 }
