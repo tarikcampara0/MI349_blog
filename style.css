@@ -46,8 +46,8 @@ article {
 }
 
 .float-image {
-    float: left;
-    height: 500px;
-    width: 500px;
+    float: right;
+    height: 250px;
+    width: 250px;
     margin-right: 8px; 
 }
