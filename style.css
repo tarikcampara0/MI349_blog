@@ -45,3 +45,10 @@ article {
     margin: 20px;
 }
 
+.float-image {
+    float: right;
+    margin: 10px;
+    width: 200px;
+    height: auto;
+    border-radius: 8px; /* Optional: for rounded corners */
+}
