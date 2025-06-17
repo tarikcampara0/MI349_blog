@@ -52,4 +52,11 @@ article {
     margin-right: 8px; 
 }
 
+aside {
+    background-color: aquamarine;
 
+}
+
+header {
+    background: greenyellow;
+}
