@@ -3,11 +3,11 @@ html{
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 40px;
     padding: 40px;
     color: black;
-    border-top: 10px solid black;
+    border-top: 20px solid black;
     background: white;
 }
 
@@ -51,3 +51,5 @@ article {
     width: 200px;
     margin-right: 8px; 
 }
+
+
