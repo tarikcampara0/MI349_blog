@@ -89,27 +89,6 @@ form {
     max-width: 400px;
 }
 
-input[type="text"],
-input[type="email"],
-textarea,
-select {
-    padding: 8px 10px;
-    margin-top: 6px;
-    margin-bottom: 15px;
-    border: 2px solid #0044cc;
-    border-radius: 6px;
-    font-size: 1em;
-    transition: border-color 0.3s ease;
-}
-
-input[type="text"]:focus,
-input[type="email"]:focus,
-textarea:focus,
-select:focus {
-    border-color: #ffcc00;
-    outline: none;
-}
-
 button {
     background-color: #0044cc;
     color: white;
@@ -117,8 +96,6 @@ button {
     border: none;
     border-radius: 6px;
     font-size: 1.1em;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
 }
 
 button:hover {
