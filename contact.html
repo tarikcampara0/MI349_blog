@@ -1,33 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Gamers Blog</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Gamers Blog - Contact</title>
 </head>
 <body>
-    <header class="gamers">
-        <h1>Gamers Blog</h1> 
-        <p>For all things gaming</p>
-        <nav>
-            <ul> 
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <h2>CONTACT FORM</h2>
-    <h3>Name:</h3>
-    <h4>Email:</h4>
-    <h5>Reason for contact:</h5>
-        <label for="reason">Choose a reason:</label>
-  <select name="reson">
-    <option value="reason1">Game reccomendation</option>
-    <option value="reason2">Asking a question</option>
-    <option value="reason3">Saying hi</option>
-  </select>
-    <h6><textarea>....</textarea></h6>
-    <button>SUBMIT<button>
+  <header class="gamers">
+    <h1>Gamers Blog</h1> 
+    <p>For all things gaming</p>
+    <nav>
+      <ul> 
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section>
+    <article class="blog-post">
+      <h2>Contact Form</h2>
+      <form action="#" method="post">
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" required /><br /><br />
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br /><br />
+        <label for="reason">Reason for contact:</label><br />
+        <select id="reason" name="reason" required>
+          <option value="">--Please choose an option--</option>
+          <option value="game_recommendation">Game recommendation</option>
+          <option value="asking_question">Asking a question</option>
+          <option value="saying_hi">Saying hi</option>
+        </select><br /><br />
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message" rows="5" cols="33" placeholder="Write your message here..." required></textarea><br /><br />
+        <button type="submit">Submit</button>
+      </form>
+    </article>
+  </section>
 </body>
+</html>
