@@ -46,9 +46,7 @@ article {
 }
 
 .float-image {
-    float: bottom;
-    margin: 10px;
-    width: 200px;
+    float: left;
     height: auto;
     border-radius: 8px; 
 }
