@@ -34,11 +34,13 @@ p {
     top: 0;
 }
 
-#blogs {
+section {
+    background: cyan;
     display: flex;
 }
 
 article {
+    background: blue;
     padding: 20px;
     margin: 20px;
 }
