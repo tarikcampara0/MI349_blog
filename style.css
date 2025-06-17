@@ -47,7 +47,14 @@ article {
 
 .float-image {
     float: right;
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     margin-right: 8px; 
+}
+
+.float-image figcaption {
+    font-size: 0.9em;
+    color: #555;
+    text-align: center;
+    margin-top: 5px;
 }
