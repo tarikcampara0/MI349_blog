@@ -45,6 +45,3 @@ article {
     margin: 20px;
 }
 
-article: nth-of-type(2) {
-    flex: -2;
-}
