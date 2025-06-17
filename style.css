@@ -1,4 +1,4 @@
-/* General Layout */
+
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 40px;
@@ -15,7 +15,7 @@ header.gamers {
     padding: 20px;
 }
 
-/* Navigation */
+
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -26,7 +26,7 @@ nav li {
     margin-right: 15px;
 }
 
-/* Sections & Articles */
+
 section {
     background-color: cyan;
     padding: 20px;
@@ -41,7 +41,7 @@ article.blog-post {
     margin-bottom: 40px;
 }
 
-/* Floated Images */
+
 .float-image {
     float: left;
     width: 200px;
@@ -61,7 +61,7 @@ article.blog-post {
     margin-top: 5px;
 }
 
-/* Newsletter */
+
 #newsletter {
     background-color: aquamarine;
     padding: 20px;
