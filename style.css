@@ -35,12 +35,12 @@ p {
 }
 
 section {
-    background: cyan;
+    background-color: cyan;
     display: flex;
 }
 
 article {
-    background: blue;
+    background-color: blue;
     padding: 20px;
     margin: 20px;
 }
